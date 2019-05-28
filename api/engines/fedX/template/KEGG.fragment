@@ -1,0 +1,3 @@
+<http://KEGG> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_KEGG%/sparql";
+fluid:supportsASKQueries "false" .

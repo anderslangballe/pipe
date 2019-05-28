@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  client:
+    build: ./client
+    ports:
+      - 80:80
+    network_mode: host
+  api:
+    build: ./api
+    ports:
+      - 8080:8080
+    environment:
+      - SOURCES=ChEBI, KEGG, Drugbank, Geonames, DBpedia, Jamendo, NYTimes, SWDF, LMDB
+      - ENDPOINT_CHEBI=127.0.0.1:8891
+      - ENDPOINT_KEGG=127.0.0.1:8892
+      - ENDPOINT_DRUGBANK=127.0.0.1:8893
+      - ENDPOINT_GEONAMES=127.0.0.1:8894
+      - ENDPOINT_DBPEDIA=127.0.0.1:8895
+      - ENDPOINT_JAMENDO=127.0.0.1:8896
+      - ENDPOINT_NYTIMES=127.0.0.1:8897
+      - ENDPOINT_SWDF=127.0.0.1:8898
+      - ENDPOINT_LMDB=127.0.0.1:8899
+    volumes:
+      - ./data/fedbench:/opt/pipe/engines/odyssey/fedbench
+    network_mode: host # Using host mode for VPN contexts. Preferably endpoints could run in the same containerized environment

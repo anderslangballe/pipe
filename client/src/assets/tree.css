@@ -1,0 +1,26 @@
+.node circle {
+  fill: #fff;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.node text {
+  font: 12px Montserrat;
+}
+
+.link {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  padding: 1px;
+  font: 16px Roboto;
+  background: #E0E0E0;
+  border: 0px;
+  pointer-events: none;
+}

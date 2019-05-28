@@ -1,0 +1,1 @@
+Drugbank	http://%ENDPOINT_DRUGBANK%/sparql

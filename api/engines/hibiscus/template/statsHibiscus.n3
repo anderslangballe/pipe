@@ -1,0 +1,10 @@
+@prefix ds:<http://aksw.org/fedsum/>.
+%FILE_CHEBI.fragment%
+%FILE_KEGG.fragment%
+%FILE_DRUGBANK.fragment%
+%FILE_GEONAMES.fragment%
+%FILE_DBPEDIA.fragment%
+%FILE_JAMENDO.fragment%
+%FILE_NYTIMES.fragment%
+%FILE_SWDF.fragment%
+%FILE_LMDB.fragment%

@@ -1,0 +1,3 @@
+<http://LMDB> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_LMDB%/sparql";
+fluid:supportsASKQueries "false" .

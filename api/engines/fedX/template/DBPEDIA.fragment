@@ -1,0 +1,3 @@
+<http://DBpedia> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_DBPEDIA%/sparql";
+fluid:supportsASKQueries "false" .

@@ -1,0 +1,668 @@
+[] a ds:Service ;
+     ds:url   <http://%ENDPOINT_SWDF%/sparql> ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+           ds:sbjAuthority <http://avesani.itc.it>, <http://dbs.uni-leipzig.de>, <http://dumontierlab.com>, <http://isweb.uni-koblenz.de>, <http://juanzili.arnetminer.org>, <http://ki.informatik.uni-mannheim.de>, <http://klt.dif.um.es>, <http://ncmir.ucsd.edu>, <http://neurocommons.org>, <http://rubin.web.stanford.edu>, <http://sid.cps.unizar.es>, <http://swa.cefriel.it>, <http://vsto.hao.ucar.edu>, <http://www.InfowebML.ws>, <http://www.almaden.ibm.com>, <http://www.andreacali.com>, <http://www.ardans.com>, <http://www.berkeleybop.org>, <http://www.bt.com>, <http://www.cimiano.de>, <http://www.cs.manchester.ac.uk>, <http://www.csc.liv.ac.uk>, <http://www.dai-labor.de>, <http://www.dbgroup.unimo.it>, <http://www.dcc.uchile.cl>, <http://www.debruijn.net>, <http://www.deri.at>, <http://www.governatori.net>, <http://www.grupoanalistas.com>, <http://www.heppnetz.de>, <http://www.intelligent.pe.kr>, <http://www.know-who.net>, <http://www.loa-cnr.it>, <http://www.mannlib.cornell.edu>, <http://www.meteck.org>, <http://www.ontoprise.de>, <http://www.ontotext.com>, <http://www.pascal-hitzler.de>, <http://www.polleres.net>, <http://www.raphaelvolz.de>, <http://www.saikatmukherjee.net>, <http://www.salzburgresearch.at>, <http://www.schaffert.eu>, <http://www.siegfried-handschuh.net>, <http://www.stefandecker.org>, <http://www.topquadrant.com>, <http://www.tudorgroza.org>, <http://www.uwekeller.net>, <http://www.vitvar.com>, <http://www.wsl.ch>, <http://purl.org>, <file://>, <http://ai-nlp.info.uniroma2.it>, <http://arep.med.harvard.edu>, <http://bio-imaging.liacs.nl>, <http://captsolo.net>, <http://cci.mit.edu>, <http://centria.di.fct.unl.pt>, <http://daks.ucdavis.edu>, <http://data.semanticweb.org>, <http://dis.um.es>, <http://exmo.inrialpes.fr>, <http://fastbat.googlepages.com>, <http://fon.fon.bg.ac.yu>, <http://hem.hj.se>, <http://home.medewerker.uva.nl>, <http://homepages.cs.manchester.ac.uk>, <http://iis.fon.bg.ac.yu>, <http://ing.utalca.cl>, <http://inkeyes.blogspot.com>, <http://kmi.open.ac.uk>, <http://knoesis.org>, <http://lia.deis.unibo.it>, <http://loqi01.eti.pg.gda.pl>, <http://lsdis.cs.uga.edu>, <http://lsirpeople.epfl.ch>, <http://members.deri.at>, <http://odur.let.rug.nl>, <http://oxygen.informatik.tu-cottbus.de>, <http://page.mi.fu-berlin.de>, <http://people.aifb.kit.edu>, <http://pms.ifi.lmu.de>, <http://rakaposhi.eas.asu.edu>, <http://research.securityresearch.at>, <http://sdow2008.semanticweb.org>, <http://see.deri.org>, <http://sisinflab.poliba.it>, <http://sw.deri.org>, <http://sws.deri.ie>, <http://user.informatik.uni-goettingen.de>, <http://webdiis.unizar.es>, <http://www-kasm.nii.ac.jp>, <http://www-lsr.imag.fr>, <http://www-sop.inria.fr>, <http://www.L3S.de>, <http://www.aifb.uni-karlsruhe.de>, <http://www.cs.concordia.ca>, <http://www.cs.iastate.edu>, <http://www.cs.man.ac.uk>, <http://www.cs.sunysb.edu>, <http://www.cs.uga.edu>, <http://www.cs.unb.ca>, <http://www.cs.vu.nl>, <http://www.cs.wayne.edu>, <http://www.cs.wright.edu>, <http://www.csc.ncsu.edu>, <http://www.csd.abdn.ac.uk>, <http://www.cse.concordia.ca>, <http://www.cse.unsw.edu.au>, <http://www.cwi.nl>, <http://www.dbis.informatik.hu-berlin.de>, <http://www.dcs.shef.ac.uk>, <http://www.di.uevora.pt>, <http://www.di.unito.it>, <http://www.di.uoa.gr>, <http://www.dic.dinfo.uqam.ca>, <http://www.ece.neu.edu>, <http://www.ee.surrey.ac.uk>, <http://www.eswc2006.org>, <http://www.eswc2007.org>, <http://www.eyaloren.org>, <http://www.fao.org>, <http://www.fensel.com>, <http://www.fh-kufstein.ac.at>, <http://www.francetelecom.com>, <http://www.his.se>, <http://www.hpi-web.de>, <http://www.icmc.usp.br>, <http://www.ics.forth.gr>, <http://www.ics.mq.edu.au>, <http://www.ida.liu.se>, <http://www.ifi.unizh.ch>, <http://www.inesc-id.pt>, <http://www.ing.unife.it>, <http://www.ipd.uka.de>, <http://www.ipipan.waw.pl>, <http://www.is.informatik.uni-kiel.de>, <http://www.it.uc3m.es>, <http://www.ksl.stanford.edu>, <http://www.lassila.org>, <http://www.leforem.be>, <http://www.lia.deis.unibo.it>, <http://www.manfredhauswirth.org>, <http://www.mat.unical.it>, <http://www.med.univ-rennes1.fr>, <http://www.michael-sintek.de>, <http://www.miv.t.u-tokyo.ac.jp>, <http://www.mpi.nl>, <http://www.oeg-upm.net>, <http://www.ordnancesurvey.co.uk>, <http://www.partners.org>, <http://www.ricardoamador.com>, <http://www.scs.carleton.ca>, <http://www.sfu.ca>, <http://www.stanford.edu>, <http://www.starlab.vub.ac.be>, <http://www.txt.it>, <http://www.uni-koblenz.de>, <http://www.york-sure.de>, <http://wwwis.win.tue.nl>, <http://ymatsuo.com>, <http://apex.sjtu.edu.cn>, <http://bis.informatik.uni-leipzig.de>, <http://dbis.informatik.uni-freiburg.de>, <http://dbpedia.org>, <http://delicias.dia.fi.upm.es>, <http://dit.unitn.it>, <http://gaia.isti.cnr.it>, <http://keg.cs.tsinghua.edu.cn>, <http://lacam.di.uniba.it:8000>, <http://lat.inf.tu-dresden.de>, <http://nb.vse.cz>, <http://people.na.infn.it>, <http://staff.science.uva.nl>, <http://www.cs.toronto.edu>, <http://www.cs.uic.edu>, <http://www.cse.lehigh.edu>, <http://www.dfki.de>, <http://www.dis.uniroma1.it>, <http://www.ecs.soton.ac.uk>, <http://www.elet.polimi.it>, <http://www.few.vu.nl>, <http://www.fzi.de>, <http://www.inf.unibz.it>, <http://www.informatik.uni-leipzig.de>, <http://www.itee.uq.edu.au>, <http://www.kbs.uni-hannover.de>, <http://www.kde.cs.uni-kassel.de>, <http://www.kr.tuwien.ac.at>, <http://www.l3s.de>, <http://www.leibnizcenter.org>, <http://www.seco.tkk.fi>, <http://www.sts.tu-harburg.de>, <http://wwwtcs.inf.tu-dresden.de> ; 
+           ds:objAuthority <http://www.w3.org/2002/07/owl#Thing>, <http://www.w3.org/2002/07/owl#Ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq>, <http://purl.org/rss/1.0/channel>, <http://data.semanticweb.org/ns/swc/ontology#SessionChair>, <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent>, <http://data.semanticweb.org/ns/swc/ontology#Administrator>, <http://data.semanticweb.org/ns/swc/ontology#BreakEvent>, <http://data.semanticweb.org/ns/swc/ontology#Chair>, <http://data.semanticweb.org/ns/swc/ontology#ConferenceChair>, <http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner>, <http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent>, <http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent>, <http://data.semanticweb.org/ns/swc/ontology#ConferencePCO>, <http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace>, <http://data.semanticweb.org/ns/swc/ontology#Delegate>, <http://data.semanticweb.org/ns/swc/ontology#DemoChair>, <http://data.semanticweb.org/ns/swc/ontology#DemoandPostersChair>, <http://data.semanticweb.org/ns/swc/ontology#DemosChair>, <http://data.semanticweb.org/ns/swc/ontology#DevelopersTrackChair>, <http://data.semanticweb.org/ns/swc/ontology#DoctoralConsortiumChair>, <http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar>, <http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair>, <http://data.semanticweb.org/ns/swc/ontology#FellowshipChair>, <http://data.semanticweb.org/ns/swc/ontology#GeneralChair>, <http://data.semanticweb.org/ns/swc/ontology#GeneralViceChair>, <http://data.semanticweb.org/ns/swc/ontology#IW3C2Liaison>, <http://data.semanticweb.org/ns/swc/ontology#IndustryChair>, <http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk>, <http://data.semanticweb.org/ns/swc/ontology#LocalChair>, <http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser>, <http://data.semanticweb.org/ns/swc/ontology#LocalOrganisingCommittee>, <http://data.semanticweb.org/ns/swc/ontology#MealEvent>, <http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace>, <http://data.semanticweb.org/ns/swc/ontology#MetadataChair>, <http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember>, <http://data.semanticweb.org/ns/swc/ontology#PCMember>, <http://data.semanticweb.org/ns/swc/ontology#PanelChair>, <http://data.semanticweb.org/ns/swc/ontology#PanelEvent>, <http://data.semanticweb.org/ns/swc/ontology#PanelsChair>, <http://data.semanticweb.org/ns/swc/ontology#Paper>, <http://data.semanticweb.org/ns/swc/ontology#PaperPresentation>, <http://data.semanticweb.org/ns/swc/ontology#PaperSession>, <http://data.semanticweb.org/ns/swc/ontology#PhDSymposium>, <http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair>, <http://data.semanticweb.org/ns/swc/ontology#Place>, <http://data.semanticweb.org/ns/swc/ontology#Poster>, <http://data.semanticweb.org/ns/swc/ontology#PosterChair>, <http://data.semanticweb.org/ns/swc/ontology#PosterSession>, <http://data.semanticweb.org/ns/swc/ontology#PosterandDemoChair>, <http://data.semanticweb.org/ns/swc/ontology#PostersChair>, <http://data.semanticweb.org/ns/swc/ontology#Presenter>, <http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair>, <http://data.semanticweb.org/ns/swc/ontology#Proceedings>, <http://data.semanticweb.org/ns/swc/ontology#ProceedingsChair>, <http://data.semanticweb.org/ns/swc/ontology#Programme>, <http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair>, <http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember>, <http://data.semanticweb.org/ns/swc/ontology#PublicityChair>, <http://data.semanticweb.org/ns/swc/ontology#Reception>, <http://data.semanticweb.org/ns/swc/ontology#RefereedPaperTrackChair>, <http://data.semanticweb.org/ns/swc/ontology#Role>, <http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair>, <http://data.semanticweb.org/ns/swc/ontology#SemanticWebChallengeChair>, <http://data.semanticweb.org/ns/swc/ontology#SemanticWebIn-UseChair>, <http://data.semanticweb.org/ns/swc/ontology#SemanticWebTechnologiesCo-ordinator>, <http://data.semanticweb.org/ns/swc/ontology#SemanticWebTechnologiesCoordinator>, <http://data.semanticweb.org/ns/swc/ontology#SemanticWebinUseChairs>, <http://data.semanticweb.org/ns/swc/ontology#SessionEvent>, <http://data.semanticweb.org/ns/swc/ontology#SocialEvent>, <http://data.semanticweb.org/ns/swc/ontology#SponsorChair>, <http://data.semanticweb.org/ns/swc/ontology#Sponsorship>, <http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair>, <http://data.semanticweb.org/ns/swc/ontology#SponsorshipManagers>, <http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration>, <http://data.semanticweb.org/ns/swc/ontology#SystemDescription>, <http://data.semanticweb.org/ns/swc/ontology#TalkEvent>, <http://data.semanticweb.org/ns/swc/ontology#TrackEvent>, <http://data.semanticweb.org/ns/swc/ontology#Treasurer>, <http://data.semanticweb.org/ns/swc/ontology#TutorialChair>, <http://data.semanticweb.org/ns/swc/ontology#TutorialEvent>, <http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter>, <http://data.semanticweb.org/ns/swc/ontology#TutorialsChair>, <http://data.semanticweb.org/ns/swc/ontology#VolunteersChair>, <http://data.semanticweb.org/ns/swc/ontology#Webmaster>, <http://data.semanticweb.org/ns/swc/ontology#WebmasterandConferenceAdministrator>, <http://data.semanticweb.org/ns/swc/ontology#WorkshopChair>, <http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent>, <http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser>, <http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair>, <http://rdfs.org/sioc/ns#Site>, <http://sw.deri.org/2005/08/conf/cfp.owl#CallForPapers>, <http://swrc.ontoware.org/ontology#ConferenceEvent>, <http://swrc.ontoware.org/ontology#InProceedings>, <http://swrc.ontoware.org/ontology#Proceedings>, <http://swrc.ontoware.org/ontology#ResearchTopic>, <http://www.w3.org/2002/12/cal/ical#DemoSession>, <http://www.w3.org/2003/01/geo/wgs84_pos#Point>, <http://xmlns.com/foaf/0.1/Document>, <http://xmlns.com/foaf/0.1/Group>, <http://xmlns.com/foaf/0.1/Image>, <http://xmlns.com/foaf/0.1/Organization>, <http://xmlns.com/foaf/0.1/Person> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#label> ;
+           ds:sbjAuthority <http://dbpedia.org>, <http://www.eswc2006.org>, <http://data.semanticweb.org>, <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#imports> ;
+           ds:sbjAuthority <file://> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#comment> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <hhpt://purl.org>, <http://c703-deri03.uibk.ac.at:8080>, <http://delicias.dia.fi.upm.es>, <http://eyaloren.org>, <http://kasei.us>, <http://nodix.de>, <http://nxg.me.uk>, <http://renaud.delbru.fr>, <http://richard.cyganiak.de>, <http://userpage.fu-berlin.de>, <http://www.aifb.uni-karlsruhe.de>, <http://www.cs.put.poznan.pl>, <http://www.debruijn.net>, <http://www.deri.ie>, <http://www.eswc2006.org>, <http://www.heiko-stoermer.net>, <http://www.iaeste.at>, <http://www.ibiblio.org>, <http://www.informatik.uni-mainz.de>, <http://www.intelligent.pe.kr>, <http://www.johnbreslin.com>, <http://www.kr.tuwien.ac.at>, <http://www.leobard.net>, <http://www.maestral.info>, <http://www.mauromazzieri.it>, <http://www.pst.ifi.lmu.de>, <http://www.sti-innsbruck.at>, <http://www.w3.org>, <http://apassant.net>, <http://captsolo.net>, <http://danbri.org>, <http://data.semanticweb.org>, <http://disi.unitn.it>, <http://dit.unitn.it>, <http://infosyst.elfax.ni.ac.yu>, <http://iswc2010.semanticweb.org>, <http://kantenwerk.org>, <http://kmi.open.ac.uk>, <http://ontoworld.org>, <http://page.mi.fu-berlin.de>, <http://sebastian.dietzold.de>, <http://staff.science.uva.nl>, <http://www-kasm.nii.ac.jp>, <http://www-sop.inria.fr>, <http://www.cs.man.ac.uk>, <http://www.cs.univie.ac.at>, <http://www.cs.vu.nl>, <http://www.csd.abdn.ac.uk>, <http://www.dcs.shef.ac.uk>, <http://www.dfki.de>, <http://www.dfki.uni-kl.de>, <http://www.di.uoa.gr>, <http://www.ecs.soton.ac.uk>, <http://www.ee.surrey.ac.uk>, <http://www.few.vu.nl>, <http://www.ifi.uzh.ch>, <http://www.ifomis.org>, <http://www.inrialpes.fr>, <http://www.kodemaniak.de>, <http://www.l3s.de>, <http://www.polleres.net>, <http://www.postsubmeta.net>, <http://www.quilitz.de>, <http://www.siegfried-handschuh.net>, <http://www.uni-koblenz.de>, <http://www.uwekeller.net>, <http://www.wieser.info>, <http://www.wikier.org>, <http://www.win.tue.nl>, <http://www.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#sameAs> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <hhttp://www.aifb.kit.edu>, <http://apassant.net>, <http://captsolo.net>, <http://consuminglinkeddata.org>, <http://dblp.l3s.de>, <http://foaf.qdos.com>, <http://foafbuilder.qdos.com>, <http://g1o.net>, <http://harth.org>, <http://homepages.cwi.nl>, <http://id.ecs.soton.ac.uk>, <http://identifiers.kmi.open.ac.uk>, <http://moustaki.org>, <http://olafhartig.de>, <http://ontoworld.org>, <http://revyu.com>, <http://richard.cyganiak.de>, <http://semanticweb.org>, <http://simia.net>, <http://sw-app.org>, <http://users.ox.ac.uk>, <http://www-sop.inria.fr>, <http://www.anjeve.de>, <http://www.blogweb.co.kr>, <http://www.cs.man.ac.uk>, <http://www.cs.utexas.edu>, <http://www.eswc2006.org>, <http://www.ibiblio.org>, <http://www.informatik.uni-leipzig.de>, <http://www.isi.edu>, <http://www.ivan-herman.net>, <http://www.johnbreslin.com>, <http://www.polleres.net>, <http://www.umbrich.net>, <http://www.uni-koblenz.de>, <http://www.w3.org>, <http://www.wikier.org>, <http://www4.wiwiss.fu-berlin.de>, <http://dbpedia.org>, <http://iws.seu.edu.cn>, <http://kmi.open.ac.uk>, <http://www.aifb.kit.edu> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+           ds:sbjAuthority <http://swrc.ontoware.org> ; 
+           ds:objAuthority <http://www.w3.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> ;
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> ;
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> ;
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> ;
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> ;
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/creator> ;
+           ds:sbjAuthority <file://>, <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/subject> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/title> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/creator> ;
+           ds:sbjAuthority <http://people.aifb.kit.edu>, <http://data.semanticweb.org>, <http://sdow2008.semanticweb.org> ; 
+           ds:objAuthority <http://olafhartig.de>, <http://www.johnbreslin.com>, <http://www.wikier.org>, <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/format> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/title> ;
+           ds:sbjAuthority <http://data.semanticweb.org>, <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/ontology/bibo/authorList> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/ontology/bibo/editorList> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://rdfs.org/sioc/ns#topic> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://sw.deri.org/2005/08/conf/cfp.owl#for> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#editor> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#authorList> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/xhtml/vocab#alternate> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+           ds:objAuthority <http://sdow2008.semanticweb.org>, <http://www.w3.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#dateTime> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/member> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#affiliation> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#completeGraph> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#editorList> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#givesKeynoteTalk> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasAcronym> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasLocation> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org>, <http://dbpedia.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasLogo> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://om2007.ontologymatching.org>, <http://srvgal67.deri.ie>, <http://www2007.org>, <http://www2009.org>, <http://data.semanticweb.org>, <http://expertfinder.info>, <http://i-semantics.tugraz.at>, <http://sdow2008.semanticweb.org>, <http://www.eswc2006.org>, <http://www.eswc2007.org>, <http://www2008.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasPart> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasProgramme> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://www.eswc2006.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://www.eswc2006.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org>, <http://www.eswc2006.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasRelatedEvent> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasRole> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#hasTopic> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://dbpedia.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#heldBy> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#holdsRole> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#homepage> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://asio.bbn.com>, <http://dig.csail.mit.edu>, <http://livingweb.disi.unitn.it>, <http://om2009.ontologymatching.org>, <http://swui.webscience.org>, <http://wiki.knoesis.org>, <http://www.ict.csiro.au>, <http://c4i.gmu.edu>, <http://esw.w3.org>, <http://ontologydesignpatterns.org>, <http://sdow.semanticweb.org>, <http://users.ecs.soton.ac.uk>, <http://www-ags.dfki.uni-sb.de>, <http://www.abdn.ac.uk>, <http://www.cse.lehigh.edu>, <http://www.ontologydynamics.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isLocationFor> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isPanelistAt> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isPartOf> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isRoleAt> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#moderates> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#moderator> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#panelist> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#paperList> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#partOf> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#speaker> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#url> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://www.eswc2006.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.semanticweb.org/ns/swc/ontology#uuid> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://sw.deri.org/2005/08/conf/cfp.owl#deadline> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://sw.deri.org/2005/08/conf/cfp.owl#involved> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://sw.deri.org/2005/08/conf/cfp.owl#takesplace> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#abstract> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#address> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#affiliation> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#author> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#booktitle> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#isbn> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#keywords> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#month> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#pages> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#publisher> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#series> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#title> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#url> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://CEUR-WS.org>, <http://ceur-ws.org>, <http://doi.acm.org>, <http://dx.doi.org>, <http://i-know.tugraz.at>, <http://i-semantics.tugraz.at>, <http://iswc2006.semanticweb.org>, <http://iswc2007.semanticweb.org>, <http://iswc2010.semanticweb.org>, <http://kcap09.stanford.edu>, <http://sunsite.informatik.rwth-aachen.de>, <http://www.eswc2006.org>, <http://www.eswc2007.org>, <http://www.i-semantics.at>, <http://www.springer.com>, <http://www.springerlink.com>, <http://www.webont.org>, <http://www2008.org>, <http://www2009.eprints.org>, <file://>, <http://data.semanticweb.org>, <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#volume> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://swrc.ontoware.org/ontology#year> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#editorList> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/xhtml/vocab#icon> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+           ds:objAuthority <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/xhtml/vocab#meta> ;
+           ds:sbjAuthority <http://people.aifb.kit.edu> ; 
+           ds:objAuthority <http://www.w3.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/xhtml/vocab#stylesheet> ;
+           ds:sbjAuthority <http://sdow2008.semanticweb.org> ; 
+           ds:objAuthority <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#date> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#description> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#dtend> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#dtstart> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#duration> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#summary> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#tzid> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/12/cal/ical#url> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://fews.semanticweb.org>, <http://iswc2006.semanticweb.org>, <http://iswc2007.semanticweb.org>, <http://iswc2008.semanticweb.org>, <http://iswc2009.semanticweb.org>, <http://iswc2010.semanticweb.org>, <http://nefors07.larkc.eu>, <http://om2007.ontologymatching.org>, <http://www.eswc2007.org>, <http://www.eswc2008.org>, <http://www2007.org>, <http://www2008.org>, <http://www.w3.org>, <http://airweb.cse.lehigh.edu>, <http://asio.bbn.com>, <http://babage.dia.fi.upm.es>, <http://c3lsw2010.info>, <http://c4i.gmu.edu>, <http://coin.sti2.org>, <http://consuminglinkeddata.org>, <http://dig.csail.mit.edu>, <http://dkm.fbk.eu>, <http://events.kmi.open.ac.uk>, <http://events.linkeddata.org>, <http://expertfinder.info>, <http://fountain.ecs.soton.ac.uk>, <http://fusion.cs.uni-jena.de>, <http://gate.ac.uk>, <http://granvia.dia.fi.upm.es>, <http://i-semantics09.tugraz.at>, <http://ifgi.uni-muenster.de>, <http://interop-vlab.eu>, <http://ir.ii.uam.es>, <http://irmles.di.uniba.it>, <http://irmles2009.di.uniba.it>, <http://km.aifb.uni-karlsruhe.de>, <http://latc-project.eu>, <http://livingweb.disi.unitn.it>, <http://medien.informatik.uni-oldenburg.de>, <http://mining-future-internet.org>, <http://mklab.iti.gr>, <http://multimedia.semanticweb.org>, <http://natures.few.vu.nl>, <http://nefors10.larkc.eu>, <http://oeg-lia3.dia.fi.upm.es>, <http://olp.dfki.de>, <http://om2008.ontologymatching.org>, <http://om2009.ontologymatching.org>, <http://om2010.ontologymatching.org>, <http://onelab.eu>, <http://onespace.kmi.open.ac.uk>, <http://ontologydesignpatterns.org>, <http://openprovenance.org>, <http://owl.cs.manchester.ac.uk>, <http://research.ict.csiro.au>, <http://sbpm2007.fzi.de>, <http://sbpm2008.fzi.de>, <http://sbpm2009.fzi.de>, <http://sbpm2010.fzi.de>, <http://sdow.semanticweb.org>, <http://semantic-web-book.org>, <http://semantic-web-grundlagen.de>, <http://semanticweb.joanneum.at>, <http://semdeskdesign2007.semanticdesktop.org>, <http://semsensweb.di.uoa.gr>, <http://semwiki.org>, <http://spot.semanticweb.org>, <http://spot2009.semanticweb.org>, <http://streamreasoning.org>, <http://swa.cefriel.it>, <http://swese2007.fzi.de>, <http://sws-challenge.org>, <http://swui.webscience.org>, <http://tev.itc.it>, <http://webscience.org>, <http://wiki.corrib.org>, <http://wiki.knoesis.org>, <http://www-ags.dfki.uni-sb.de>, <http://www-edc.eng.cam.ac.uk>, <http://www-tori.jaist.ac.jp:8000>, <http://www.ag-nbi.de>, <http://www.ai.sri.com>, <http://www.buyans.com>, <http://www.cs.adelaide.edu.au>, <http://www.cse.lehigh.edu>, <http://www.dbis.informatik.uni-goettingen.de>, <http://www.di.uniba.it>, <http://www.disa.unitn.it>, <http://www.ebusiness-unibw.org>, <http://www.eswc2009.org>, <http://www.eswc2010.org>, <http://www.fire-teagle.org>, <http://www.fis2010.org>, <http://www.fokus.fraunhofer.de>, <http://www.gate.ac.uk>, <http://www.ict.csiro.au>, <http://www.imu.iccs.gr>, <http://www.insemtives.eu>, <http://www.insemtives.org>, <http://www.ip-super.org>, <http://www.jigs4owl.com>, <http://www.kbs.uni-hannover.de>, <http://www.l3s.de>, <http://www.linkedopenservices.org>, <http://www.mit.edu>, <http://www.okkam.org>, <http://www.ontologydynamics.org>, <http://www.personal-reader.de>, <http://www.research.att.com>, <http://www.semanticscripting.org>, <http://www.semwiki.org>, <http://www.smart-ui.org>, <https://logic.aifb.uni-karlsruhe.de>, <file://>, <http://esw.w3.org>, <http://homepages.cwi.nl>, <http://keg.cs.tsinghua.edu.cn>, <http://kmi.open.ac.uk>, <http://people.csail.mit.edu>, <http://research.yahoo.com>, <http://sdow2008.semanticweb.org>, <http://semanticweb.org>, <http://users.ecs.soton.ac.uk>, <http://www.abdn.ac.uk>, <http://www.aifb.uni-karlsruhe.de>, <http://www.cs.vu.nl>, <http://www.csd.abdn.ac.uk>, <http://www.dcs.shef.ac.uk>, <http://www.dfki.de>, <http://www.dis.uniroma1.it>, <http://www.eswc2006.org>, <http://www.kde.cs.uni-kassel.de>, <http://www.polleres.net>, <http://www.webont.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2004/02/skos/core#broader> ;
+           ds:sbjAuthority <http://www.eswc2006.org> ; 
+           ds:objAuthority <http://www.eswc2006.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+           ds:sbjAuthority <http://tomheath.com>, <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/based_near> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://sws.geonames.org>, <http://data.semanticweb.org>, <http://dbpedia.org>, <http://www.w3.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/depiction> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://sdow2008.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/family_name> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/firstName> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/homepage> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://www.openlinksw.com>, <http://avesani.itc.it>, <http://dbs.uni-leipzig.de>, <http://dumontierlab.com>, <http://eyaloren.org>, <http://fcs.itc.it>, <http://g1o.net>, <http://iswc2008.semanticweb.org>, <http://isweb.uni-koblenz.de>, <http://juanzili.arnetminer.org>, <http://kantenwerk.org>, <http://ki.informatik.uni-mannheim.de>, <http://klt.dif.um.es>, <http://ncmir.ucsd.edu>, <http://neurocommons.org>, <http://nxg.me.uk>, <http://rauschma.de>, <http://rubin.web.stanford.edu>, <http://semantic.nodix.net>, <http://sid.cps.unizar.es>, <http://stray.net>, <http://swa.cefriel.it>, <http://vsto.hao.ucar.edu>, <http://www.InfowebML.ws>, <http://www.aist.go.jp>, <http://www.alexandergarcia.name>, <http://www.almaden.ibm.com>, <http://www.andreacali.com>, <http://www.ardans.com>, <http://www.atosorigin.com>, <http://www.berkeleybop.org>, <http://www.bt.com>, <http://www.cimiano.de>, <http://www.cs.manchester.ac.uk>, <http://www.csc.liv.ac.uk>, <http://www.dai-labor.de>, <http://www.dbgroup.unimo.it>, <http://www.dcc.uchile.cl>, <http://www.debruijn.net>, <http://www.deri.at>, <http://www.faw.at>, <http://www.governatori.net>, <http://www.grupoanalistas.com>, <http://www.heppnetz.de>, <http://www.ics.forth.gr>, <http://www.intelligent.pe.kr>, <http://www.know-who.net>, <http://www.loa-cnr.it>, <http://www.mannlib.cornell.edu>, <http://www.mauromazzieri.it>, <http://www.meteck.org>, <http://www.michael-sintek.de>, <http://www.nuig.ie>, <http://www.onlab.ntt.co.jp>, <http://www.ontoprise.de>, <http://www.ontotext.com>, <http://www.pascal-hitzler.de>, <http://www.polleres.net>, <http://www.rajabhat.com>, <http://www.raphaelvolz.de>, <http://www.saikatmukherjee.net>, <http://www.salzburgresearch.at>, <http://www.schaffert.eu>, <http://www.sfp.ulb.ac.be>, <http://www.siegfried-handschuh.net>, <http://www.stefandecker.org>, <http://www.stritt.de>, <http://www.topquadrant.com>, <http://www.tpconsulting.com.mk>, <http://www.tudorgroza.org>, <http://www.uni-koblenz.de>, <http://www.uwekeller.net>, <http://www.vitvar.com>, <http://www.wsl.ch>, <http://www.xam.de>, <http://www2007.org>, <http://www.w3.org>, <http://purl.org>, <http://www.daml.org>, <http://162.105.146.245:8080>, <http://WWW.DCS.SHEF.AC.UK>, <http://acet.rdg.ac.uk>, <http://ai-nlp.info.uniroma2.it>, <http://algos.inesc-id.pt>, <http://anjajentzsch.de>, <http://ansgarscherp.net>, <http://apassant.net>, <http://apex.sjtu.edu.cn>, <http://apexlab.org>, <http://arep.med.harvard.edu>, <http://asio.bbn.com>, <http://austinhaugen.com>, <http://axel.deri.ie>, <http://beckr.org>, <http://bio-imaging.liacs.nl>, <http://bis.informatik.uni-leipzig.de>, <http://bit.ly>, <http://blazfortuna.com>, <http://blockslabpillar.com>, <http://blog-en.saltlux.com>, <http://blog.chalaschek.com>, <http://bmir.stanford.edu>, <http://c3lsw2010.info>, <http://c4i.gmu.edu>, <http://ca.linkedin.com>, <http://captsolo.net>, <http://cci.mit.edu>, <http://centria.di.fct.unl.pt>, <http://centria.fct.unl.pt>, <http://cgi.di.uoa.gr>, <http://chimezie.posterous.com>, <http://choices.cs.uiuc.edu>, <http://clarkparsia.com>, <http://cn.linkedin.com>, <http://consuminglinkeddata.org>, <http://cs.umbc.edu>, <http://cse.seu.edu.cn>, <http://daks.ucdavis.edu>, <http://daml.bbn.com>, <http://danbri.org>, <http://davidhuynh.net>, <http://dbis.informatik.uni-freiburg.de>, <http://dis.um.es>, <http://dit.unitn.it>, <http://domino.research.ibm.com>, <http://ebiquity.umbc.edu>, <http://ecs.soton.ac.uk>, <http://ect.bell-labs.com>, <http://emanueledellavalle.org>, <http://en.jlu.edu.cn>, <http://en.wikipedia.org>, <http://er.uni-koblenz.de>, <http://esw.w3.org>, <http://evansandhaus.com>, <http://events.kmi.open.ac.uk>, <http://events.linkeddata.org>, <http://exmo.inrialpes.fr>, <http://expertfinder.info>, <http://fastbat.googlepages.com>, <http://fon.fon.bg.ac.yu>, <http://foolme.csail.mit.edu>, <http://fortytwo.net>, <http://fusion.cs.uni-jena.de>, <http://gaia.isti.cnr.it>, <http://gate.ac.uk>, <http://goldsmiths.academia.edu>, <http://gsc.nrcan.gc.ca>, <http://harth.org>, <http://hcs.bbn.com>, <http://hem.hj.se>, <http://hlt.fbk.eu>, <http://home.comcast.net>, <http://home.medewerker.uva.nl>, <http://homepages.cs.manchester.ac.uk>, <http://i-semantics09.tugraz.at>, <http://iiis.griffith.edu.au>, <http://iir.ruc.edu.cn>, <http://iis.fon.bg.ac.yu>, <http://im.dm.hs-furtwangen.de>, <http://image.ntua.gr>, <http://info.slis.indiana.edu>, <http://infosyst.elfax.ni.ac.yu>, <http://ing.utalca.cl>, <http://inkeyes.blogspot.com>, <http://insitu.lri.fr>, <http://ir.ii.uam.es>, <http://irmles.di.uniba.it>, <http://irmles2009.di.uniba.it>, <http://isiosf.isi.it>, <http://issel.ee.auth.gr>, <http://ist.ksc.kwansei.ac.jp>, <http://ix.cs.uoregon.edu>, <http://jens-lehmann.org>, <http://kdeg.cs.tcd.ie>, <http://keg.cs.tsinghua.edu.cn>, <http://kim.open.ac.uk>, <http://kis.salzburgresearch.at>, <http://kmi.open.ac.uk>, <http://knoesis.org>, <http://knoesis.wright.edu>, <http://korrekt.org>, <http://kschoi.kaist.ac.kr>, <http://kt.ijs.si>, <http://l3s.de>, <http://lacam.di.uniba.it:8000>, <http://latc-project.eu>, <http://lcs.ios.ac.cn>, <http://lia.deis.unibo.it>, <http://lin-clark.com>, <http://loqi01.eti.pg.gda.pl>, <http://lsdis.cs.uga.edu>, <http://lsirpeople.epfl.ch>, <http://mayor2.dia.fi.upm.es>, <http://mayoresearch.mayo.edu>, <http://members.deri.at>, <http://members.deri.org>, <http://members.sti2.at>, <http://mor.nlm.nih.gov>, <http://moustaki.org>, <http://natures.few.vu.nl>, <http://nb.vse.cz>, <http://nefors10.larkc.eu>, <http://ngwr.labs.bt.com>, <http://nlp.fi.muni.cz>, <http://nlplab.kaist.ac.kr>, <http://ntua.academia.edu>, <http://odur.let.rug.nl>, <http://oeg-lia3.dia.fi.upm.es>, <http://om2008.ontologymatching.org>, <http://om2010.ontologymatching.org>, <http://ontolog.cim3.net>, <http://ontologydesignpatterns.org>, <http://owl.cs.manchester.ac.uk>, <http://oxygen.informatik.tu-cottbus.de>, <http://page.mi.fu-berlin.de>, <http://pages.sbcglobal.net>, <http://palexander.posterous.com>, <http://people.csail.mit.edu>, <http://people.kmi.open.ac.uk>, <http://people.na.infn.it>, <http://personal.sirma.bg>, <http://personalpages.manchester.ac.uk>, <http://peterhaase.org>, <http://pl.linkedin.com>, <http://pms.ifi.lmu.de>, <http://rakaposhi.eas.asu.edu>, <http://renato.iannella.it>, <http://renaud.delbru.fr>, <http://research.google.com>, <http://research.ict.csiro.au>, <http://research.nokia.com>, <http://research.securityresearch.at>, <http://research.yahoo.com>, <http://ri-www.nii.ac.jp>, <http://ru.linkedin.com>, <http://sbpm2009.fzi.de>, <http://sbpm2010.fzi.de>, <http://sdow.semanticweb.org>, <http://sebastian.dietzold.de>, <http://see.deri.org>, <http://semantic-web-book.org>, <http://semantic-web-grundlagen.de>, <http://semanticweb.joanneum.at>, <http://semedia.deit.univpm.it>, <http://semsensweb.di.uoa.gr>, <http://simeon.polfliet.free.fr>, <http://sisinflab.poliba.it>, <http://sites.google.com>, <http://spot.semanticweb.org>, <http://spot2009.semanticweb.org>, <http://staff.science.uva.nl>, <http://staffwww.dcs.shef.ac.uk>, <http://stl.mie.utoronto.ca>, <http://stlab.istc.cnr.it>, <http://streamreasoning.org>, <http://sw-app.org>, <http://sw.deri.org>, <http://sws.deri.ie>, <http://tev.itc.it>, <http://tw.rpi.edu>, <http://twinearth.net>, <http://twitter.com>, <http://uk.linkedin.com>, <http://umbrich.net>, <http://uoa.gr>, <http://user.informatik.uni-goettingen.de>, <http://users.cs.cf.ac.uk>, <http://users.ecs.soton.ac.uk>, <http://web.comlab.ox.ac.uk>, <http://web.fhnw.ch>, <http://web.inf.tu-dresden.de>, <http://web.ing.puc.cl>, <http://web.mit.edu>, <http://webdiis.unizar.es>, <http://webode.dia.fi.upm.es>, <http://webscience.org>, <http://wiki.ontoprise.de>, <http://wis.cs.ucla.edu>, <http://wise.vub.ac.be>, <http://ws.nju.edu.cn>, <http://www-900.ibm.com>, <http://www-ai.ijs.si>, <http://www-di.inf.puc-rio.br>, <http://www-kasm.nii.ac.jp>, <http://www-lipn.univ-paris13.fr>, <http://www-lsr.imag.fr>, <http://www-scf.usc.edu>, <http://www-sop.inria.fr>, <http://www.L3S.de>, <http://www.abdn.ac.uk>, <http://www.accenture.com>, <http://www.addith.be>, <http://www.aegean.gr>, <http://www.aifb.kit.edu>, <http://www.aifb.uni-karlsruhe.de>, <http://www.ailab.si>, <http://www.ait.ac.th>, <http://www.albaath-univ.edu.sy>, <http://www.alcatel-lucent.com>, <http://www.alexandria.unisg.ch>, <http://www.apexlab.com>, <http://www.apexlab.org>, <http://www.apohllo.pl>, <http://www.austriacongress.com>, <http://www.bath.ac.uk>, <http://www.bbk.ac.uk>, <http://www.bbn.com>, <http://www.bo-wang.net>, <http://www.brighton.ac.uk>, <http://www.cam.ac.uk>, <http://www.cambridgesemantics.com>, <http://www.catcert.net>, <http://www.cc.uah.es>, <http://www.cefriel.it>, <http://www.city.ac.uk>, <http://www.cogsci.ed.ac.uk>, <http://www.comlab.ox.ac.uk>, <http://www.comp.leeds.ac.uk>, <http://www.cpt.univ-mrs.fr>, <http://www.creativityandcognition.com>, <http://www.cs.auckland.ac.nz>, <http://www.cs.cmu.edu>, <http://www.cs.columbia.edu>, <http://www.cs.concordia.ca>, <http://www.cs.helsinki.fi>, <http://www.cs.huji.ac.il>, <http://www.cs.iastate.edu>, <http://www.cs.jhu.edu>, <http://www.cs.man.ac.uk>, <http://www.cs.rpi.edu>, <http://www.cs.sunysb.edu>, <http://www.cs.swan.ac.uk>, <http://www.cs.technion.ac.il>, <http://www.cs.toronto.edu>, <http://www.cs.uga.edu>, <http://www.cs.uic.edu>, <http://www.cs.umbc.edu>, <http://www.cs.umd.edu>, <http://www.cs.unb.ca>, <http://www.cs.utexas.edu>, <http://www.cs.utoronto.ca>, <http://www.cs.vu.nl>, <http://www.cs.wayne.edu>, <http://www.cs.wright.edu>, <http://www.csail.mit.edu>, <http://www.csc.liva.ac.uk>, <http://www.csc.ncsu.edu>, <http://www.csd.abdn.ac.uk>, <http://www.cse.concordia.ca>, <http://www.cse.lehigh.edu>, <http://www.cse.unsw.edu.au>, <http://www.csee.umbc.edu>, <http://www.csl.sony.fr>, <http://www.cul.de>, <http://www.cumc.columbia.edu>, <http://www.cwi.nl>, <http://www.dai.ed.ac.uk>, <http://www.dajobe.org>, <http://www.dbis.informatik.hu-berlin.de>, <http://www.dbis.informatik.uni-goettingen.de>, <http://www.dcs.bbk.ac.uk>, <http://www.dcs.shef.ac.uk>, <http://www.deimos-space.com>, <http://www.deri.ie>, <http://www.dfki.de>, <http://www.dfki.uni-kl.de>, <http://www.di.uevora.pt>, <http://www.di.unito.it>, <http://www.di.uoa.gr>, <http://www.dia.fi.upm.es>, <http://www.dic.dinfo.uqam.ca>, <http://www.dis.uniroma1.it>, <http://www.dist-systems.bbn.com>, <http://www.dit.unitn.it>, <http://www.dlut.edu.cn>, <http://www.doc.gold.ac.uk>, <http://www.docomoeurolabs.de>, <http://www.ebusiness-unibw.org>, <http://www.ece.neu.edu>, <http://www.econ.ubbcluj.ro>, <http://www.ecs.soton.ac.uk>, <http://www.ed.ac.uk>, <http://www.edwardbenson.com>, <http://www.ee.surrey.ac.uk>, <http://www.eecs.berkeley.edu>, <http://www.eecs.case.edu>, <http://www.ege.edu.tr>, <http://www.ei.sanken.osaka-u.ac.jp>, <http://www.elet.polimi.it>, <http://www.elsevier.com>, <http://www.eng.unibo.it>, <http://www.enridaga.net>, <http://www.eps.uam.es>, <http://www.esis.no>, <http://www.eswc2010.org>, <http://www.eyaloren.org>, <http://www.facebook.com>, <http://www.fao.org>, <http://www.fensel.com>, <http://www.fernando.parreiras.nom.br>, <http://www.few.vu.nl>, <http://www.fh-furtwangen.de>, <http://www.fh-kufstein.ac.at>, <http://www.fourthcodex.com>, <http://www.francetelecom.com>, <http://www.franz.com>, <http://www.fu-berlin.de>, <http://www.fudan.edu.cn>, <http://www.furche.net>, <http://www.fzi.de>, <http://www.gate.ac.uk>, <http://www.gecad.com>, <http://www.gla.ac.uk>, <http://www.h-its.org>, <http://www.haifa.il.ibm.com>, <http://www.his.se>, <http://www.hj.se>, <http://www.hkbu.edu.hk>, <http://www.hlrs.de>, <http://www.hpi-web.de>, <http://www.hpi.uni-potsdam.de>, <http://www.hpl.hp.com>, <http://www.hsw.fhso.ch>, <http://www.i2r.a-star.edu.sg>, <http://www.iandickinson.me.uk>, <http://www.iastate.edu>, <http://www.ib.hu-berlin.de>, <http://www.ibi.hu-berlin.de>, <http://www.ibiblio.org>, <http://www.icar.cnr.it>, <http://www.icmc.usp.br>, <http://www.ics.mq.edu.au>, <http://www.ida.lin.se>, <http://www.ida.liu.se>, <http://www.idq.lin.se>, <http://www.ifi.unizh.ch>, <http://www.ifi.uzh.ch>, <http://www.ihmc.us>, <http://www.image.ece.ntua.gr>, <http://www.image.ntua.gr>, <http://www.imu.iccs.gr>, <http://www.inesc-id.pt>, <http://www.inf.unibz.it>, <http://www.infor.uva.es>, <http://www.informatik.fh-nuernberg.de>, <http://www.informatik.uni-augsburg.de>, <http://www.informatik.uni-bremen.de>, <http://www.informatik.uni-trier.de>, <http://www.ing.puc.cl>, <http://www.ing.unife.it>, <http://www.inrialpes.fr>, <http://www.insemtives.eu>, <http://www.insemtives.org>, <http://www.ipd.uka.de>, <http://www.ipipan.waw.pl>, <http://www.ipsi.fraunhofer.de>, <http://www.irisa.fr>, <http://www.irit.fr>, <http://www.is.informatik.uni-kiel.de>, <http://www.isi.edu>, <http://www.istc.cnr.it>, <http://www.it.bton.ac.uk>, <http://www.it.uc3m.es>, <http://www.itee.uq.edu.au>, <http://www.jhart.de>, <http://www.johnbreslin.org>, <http://www.jth.hj.se>, <http://www.julielab.de>, <http://www.jyu.fi>, <http://www.k-state.edu>, <http://www.kbs.uni-hannover.de>, <http://www.kde.cs.uni-kassel.de>, <http://www.kecl.ntt.co.jp>, <http://www.kietz.ch>, <http://www.kisti.re.kr>, <http://www.kmitnb.ac.th>, <http://www.knowledgegrid.net>, <http://www.kodemaniak.de>, <http://www.kom.tu-darmstadt.de>, <http://www.ksi.mff.cuni.cz>, <http://www.ksl.stanford.edu>, <http://www.kyoto-u.ac.jp>, <http://www.lassila.org>, <http://www.ldc.usb.ve>, <http://www.ldodds.com>, <http://www.leforem.be>, <http://www.lehigh.edu>, <http://www.leibnizcenter.org>, <http://www.let.uu.nl>, <http://www.lia.deis.unibo.it>, <http://www.linkedin.com>, <http://www.linkedopenservices.org>, <http://www.liu.se>, <http://www.liv.ac.uk>, <http://www.lorand.me>, <http://www.lri.fr>, <http://www.manchester.ac.uk>, <http://www.manfredhauswirth.org>, <http://www.mat.unical.it>, <http://www.matlog.net>, <http://www.med.univ-rennes1.fr>, <http://www.mendeley.com>, <http://www.merc.ac.uk>, <http://www.mindswap.org>, <http://www.mit.edu>, <http://www.miv.t.u-tokyo.ac.jp>, <http://www.mondeca.com>, <http://www.morris.umn.edu>, <http://www.mpi.nl>, <http://www.myexperiment.org>, <http://www.nccu.edu.tw>, <http://www.nict.go.jp>, <http://www.nii.ac.jp>, <http://www.nist.gov>, <http://www.northropgrumman.com>, <http://www.nus.edu.sg>, <http://www.oeg-upm.net>, <http://www.oerc.ox.ac.uk>, <http://www.ontologydynamics.org>, <http://www.open.ac.uk>, <http://www.ordnancesurvey.co.uk>, <http://www.osaka-u.ac.jp>, <http://www.oulu.fi>, <http://www.paolobesana.name>, <http://www.partners.org>, <http://www.paulbuitelaar.net>, <http://www.personal-reader.de>, <http://www.personal.psu.edu>, <http://www.pitt.edu>, <http://www.pku-jri.ucla.edu>, <http://www.pku.edu.cn>, <http://www.pms.ifi.lmu.de>, <http://www.poliba.it>, <http://www.pps.jussieu.fr>, <http://www.puc.cl>, <http://www.qub.ac.uk>, <http://www.quilitz.de>, <http://www.research.ibm.com>, <http://www.research.philips.com>, <http://www.revelytix.com>, <http://www.ricardoamador.com>, <http://www.rmit.edu.au>, <http://www.ruc.edu.cn>, <http://www.s21sec.com>, <http://www.science.uva.nl>, <http://www.scs.carleton.ca>, <http://www.sei.pku.edu.cn>, <http://www.semanticscripting.org>, <http://www.semwiki.org>, <http://www.seu.edu.cn>, <http://www.sfu.ca>, <http://www.shef.ac.uk>, <http://www.shinawatra.ac.th>, <http://www.silogic.fr>, <http://www.sis.pitt.edu>, <http://www.sjtu.edu.cn>, <http://www.smart-ui.org>, <http://www.snee.com>, <http://www.soton.ac.uk>, <http://www.sri.com>, <http://www.st.ewi.tudelft.nl>, <http://www.stanford.edu>, <http://www.starlab.vub.ac.be>, <http://www.sti-innsbruck.at>, <http://www.systap.com>, <http://www.taikang.com>, <http://www.talis.com>, <http://www.tamu.edu>, <http://www.tcd.ie>, <http://www.the-bac.edu>, <http://www.thomas-riechert.de>, <http://www.tkk.fi>, <http://www.tno.nl>, <http://www.topic-maps.org>, <http://www.tsinghua.edu.cn>, <http://www.tuc.gr>, <http://www.tum.de>, <http://www.tuwien.ac.at>, <http://www.txt.it>, <http://www.u-tokyo.ac.jp>, <http://www.uchile.cl>, <http://www.ucl.ac.uk>, <http://www.uga.edu>, <http://www.ugr.es>, <http://www.uibk.ac.at>, <http://www.uic.edu>, <http://www.umbc.edu>, <http://www.umd.edu>, <http://www.uni-hannover.de>, <http://www.uni-karlsruhe.de>, <http://www.uni-klu.ac.at>, <http://www.uni-koblenz-landau.de>, <http://www.uni-leipzig.de>, <http://www.uni-mannheim.de>, <http://www.uni.lu>, <http://www.unibo.it>, <http://www.unibw.de>, <http://www.unibz.it>, <http://www.uniroma1.it>, <http://www.unitn.it>, <http://www.unitus.it>, <http://www.univ-paris5.fr>, <http://www.univpm.it>, <http://www.unizar.es>, <http://www.unizh.ch>, <http://www.uoa.gr>, <http://www.upenn.edu>, <http://www.uq.edu.au>, <http://www.usc.edu>, <http://www.useoul.edu>, <http://www.usna.edu>, <http://www.utalca.cl>, <http://www.utdallas.edu>, <http://www.utoronto.ca>, <http://www.uvic.ca>, <http://www.uvsq.fr>, <http://www.uwaterloo.ca>, <http://www.vse.cz>, <http://www.vu.nl>, <http://www.vub.ac.be>, <http://www.washington.edu>, <http://www.watson.ibm.com>, <http://www.webpages.ttu.edu>, <http://www.wewur.wur.nl>, <http://www.wieser.info>, <http://www.wikier.org>, <http://www.win.tue.nl>, <http://www.wis.ewi.tudelft.nl>, <http://www.wiwiss.fu-berlin.de>, <http://www.york-sure.de>, <http://www.zemanta.com>, <http://www.zotero.org>, <http://www2.cs.man.ac.uk>, <http://www2.informatik.hu-berlin.de>, <http://www4.ncsu.edu>, <http://wwwis.win.tue.nl>, <http://wwwtcs.inf.tu-dresden.de>, <http://ymatsuo.com>, <http://zepheira.com>, <https://dkm.fbk.eu>, <https://old.disi.unitn.it>, <https://opencirrus.org>, <https://researcher.ibm.com>, <http://data.semanticweb.org>, <http://delicias.dia.fi.upm.es>, <http://disi.unitn.it>, <http://dkm.fbk.eu>, <http://homepages.cwi.nl>, <http://ifgi.uni-muenster.de>, <http://kasei.us>, <http://km.aifb.uni-karlsruhe.de>, <http://lat.inf.tu-dresden.de>, <http://richard.cyganiak.de>, <http://sdow2008.semanticweb.org>, <http://semanticweb.org>, <http://semwiki.org>, <http://sws-challenge.org>, <http://tomheath.com>, <http://userpage.fu-berlin.de>, <http://wiki.knoesis.org>, <http://www-ags.dfki.uni-sb.de>, <http://www.ai.sri.com>, <http://www.cs.put.poznan.pl>, <http://www.cs.unibo.it>, <http://www.cs.univie.ac.at>, <http://www.di.uniba.it>, <http://www.eswc2006.org>, <http://www.eswc2009.org>, <http://www.informatik.uni-leipzig.de>, <http://www.informatik.uni-mainz.de>, <http://www.inria.fr>, <http://www.kr.tuwien.ac.at>, <http://www.l3s.de>, <http://www.seco.tkk.fi>, <http://www.star.le.ac.uk>, <http://www.sts.tu-harburg.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/made> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/maker> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/mbox_sha1sum> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/name> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/page> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://apassant.net>, <http://cpedrinaci.net>, <http://dannyayers.com>, <http://fgiasson.com>, <http://kantenwerk.org>, <http://ki.informatik.uni-mannheim.de>, <http://leobard.twoday.net>, <http://mmlab.deri.ie>, <http://semedia.deit.univpm.it>, <http://www-is.informatik.uni-oldenburg.de>, <http://www.bizer.de>, <http://www.boabinteractive.com.au>, <http://www.expertsystem.it>, <http://www.georgikobilarov.com>, <http://www.heiko-stoermer.net>, <http://www.heppnetz.de>, <http://www.katharinasiorpaes.net>, <http://www.know-who.net>, <http://www.langegger.at>, <http://www.mkbergman.com>, <http://www.openlinksw.com>, <http://www.polleres.net>, <http://purl.org>, <http://airweb.cse.lehigh.edu>, <http://babage.dia.fi.upm.es>, <http://berrueta.net>, <http://bnode.org>, <http://boab.info>, <http://disi.unitn.it>, <http://dkm.fbk.eu>, <http://dowhatimean.net>, <http://homepages.cwi.nl>, <http://iki.fi>, <http://iws.seu.edu.cn>, <http://km.aifb.uni-karlsruhe.de>, <http://krono.act.uji.es>, <http://lat.inf.tu-dresden.de>, <http://medien.informatik.uni-oldenburg.de>, <http://mklab.iti.gr>, <http://moustaki.org>, <http://multimedia.semanticweb.org>, <http://renaud.delbru.fr>, <http://sbpm2008.fzi.de>, <http://semwebdev.keithalexander.co.uk>, <http://semwiki.org>, <http://sti-innsbruck.at>, <http://sw.deri.org>, <http://sws-challenge.org>, <http://users.ox.ac.uk>, <http://users.zoo.ox.ac.uk>, <http://web2.comlab.ox.ac.uk>, <http://webscience.org>, <http://www-tori.jaist.ac.jp:8000>, <http://www.ai.soc.i.kyoto-u.ac.jp>, <http://www.buyans.com>, <http://www.cps.unizar.es>, <http://www.cs.adelaide.edu.au>, <http://www.cs.univie.ac.at>, <http://www.di.uniovi.es>, <http://www.di.uoa.gr>, <http://www.dynamicorange.com>, <http://www.ifomis.org>, <http://www.ifrade.es>, <http://www.joanneum.at>, <http://www.meraka.org.za>, <http://www.michael-sintek.de>, <http://www.netseven.it>, <http://www.okkam.org>, <http://www.postsubmeta.net>, <http://www.research.att.com>, <http://www.sap.com>, <http://www.seco.tkk.fi>, <http://www.seerc.org>, <http://www.siegfried-handschuh.net>, <http://www.sonictruths.net>, <http://www.sts.tu-harburg.de>, <http://www.talis.com>, <http://www.tudorgroza.org>, <http://www.virtualchaos.co.uk>, <http://www.wikier.org>, <https://logic.aifb.uni-karlsruhe.de>, <http://bis.informatik.uni-leipzig.de>, <http://captsolo.net>, <http://ceur-ws.org>, <http://cse.seu.edu.cn>, <http://data.semanticweb.org>, <http://esw.w3.org>, <http://events.linkeddata.org>, <http://keg.cs.tsinghua.edu.cn>, <http://kmi.open.ac.uk>, <http://ontoworld.org>, <http://research.yahoo.com>, <http://sunsite.informatik.rwth-aachen.de>, <http://sw-app.org>, <http://users.ecs.soton.ac.uk>, <http://www.cs.man.ac.uk>, <http://www.cs.vu.nl>, <http://www.csd.abdn.ac.uk>, <http://www.cse.unsw.edu.au>, <http://www.deri.ie>, <http://www.dfki.uni-kl.de>, <http://www.di.uniba.it>, <http://www.ecs.soton.ac.uk>, <http://www.ei.sanken.osaka-u.ac.jp>, <http://www.few.vu.nl>, <http://www.fzi.de>, <http://www.hpl.hp.com>, <http://www.ibiblio.org>, <http://www.semanticscripting.org>, <http://www.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/primaryTopic> ;
+           ds:sbjAuthority <http://people.aifb.kit.edu>, <http://sdow2008.semanticweb.org> ; 
+           ds:objAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/status> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/topic> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <http://dbpedia.org>, <http://www.eswc2006.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/workplaceHomepage> ;
+           ds:sbjAuthority <http://data.semanticweb.org> ; 
+           ds:objAuthority <htpp://infosyst.elfax.ni.ac.yu>, <http://ag-nbi.de>, <http://ai-nlp.info.uniroma2.it>, <http://deri.org>, <http://dit.unitn.it>, <http://goodoldai.org.yu>, <http://ifgi.uni-muenster.de>, <http://informatik.uni-mannheim.de>, <http://isweb.uni-koblenz.de>, <http://kmi.open.ac.uk>, <http://kt.ijs.si>, <http://kwarc.eesc.iu-bremen.de>, <http://mtg.iti.gr>, <http://semedia.deit.univpm.it>, <http://wise.vub.ac.be>, <http://www.ag-nbi.de>, <http://www.aifb.uni-karlsruhe.de>, <http://www.astrazeneca.co.uk>, <http://www.bt.com>, <http://www.comp.leeds.ac.uk>, <http://www.cs.man.ac.uk>, <http://www.cs.put.poznan.pl>, <http://www.csc.liv.ac.uk>, <http://www.csr.unibo.it>, <http://www.deri.at>, <http://www.deri.ie>, <http://www.deri.org>, <http://www.dfki.de>, <http://www.di.uniba.it>, <http://www.di.unito.it>, <http://www.di.uoa.gr>, <http://www.dit.unitn.it>, <http://www.econ.ubbbcluj.ro>, <http://www.ecs.soton.ac.uk>, <http://www.faw.at>, <http://www.fhnw.ch>, <http://www.fi.muni.cz>, <http://www.fokus.fraunhofer.de>, <http://www.fzi.de>, <http://www.hpl.hp.com>, <http://www.ida.lin.se>, <http://www.idq.lin.se>, <http://www.ifi.unizh.ch>, <http://www.ijs.si>, <http://www.image.ntua.gr>, <http://www.informatik.fh-nuernberg.de>, <http://www.inria.fr>, <http://www.inrialpes.fr>, <http://www.isti.cnr.it>, <http://www.iti.gr>, <http://www.kde.cs.uni-kassel.de>, <http://www.kr.tuwien.ac.at>, <http://www.l3s.de>, <http://www.loria.fr>, <http://www.masit.org.mk>, <http://www.mdrpartners.com>, <http://www.mondeca.com>, <http://www.oeg-upm.net>, <http://www.onekin.org>, <http://www.ontotext.bg>, <http://www.ontotext.com>, <http://www.pms.ifi.lmu.de>, <http://www.polimi.it>, <http://www.researchstudio.at>, <http://www.salzburgresearch.at>, <http://www.sap.com>, <http://www.technikum-wien.at>, <http://www.tu-ilmenau.de>, <http://www.ulb.ac.be>, <http://www.uma.at>, <http://www.umiacs.umd.edu>, <http://www.uni-koblenz.de>, <http://www.univpm.it>, <http://www.vse.cz>, <http://www.workbrain.com>, <htpp://www.sfu.ca>, <http://WWW.SHEF.AC.UK>, <http://cs.na.infn.it>, <http://danbri.org>, <http://hcs.science.uva.nl>, <http://rewerse.net>, <http://w3.win.tue.nl>, <http://www.TagTrade.org>, <http://www.cisa.informatics.ed.ac.uk>, <http://www.cs.unibo.it>, <http://www.ds-lab.org>, <http://www.ece.ntua.gr>, <http://www.europarl.europa.eu>, <http://www.ifi.lmu.de>, <http://www.informatik.uni-freiburg.de>, <http://www.informatik.uni-leipzig.de>, <http://www.ipsi.fraunhofer.de>, <http://www.kwansei.ac.jp>, <http://www.mondeca.com ~ http:>, <http://www.motorola.com>, <http://www.nii.ac.jp>, <http://www.oracle.com>, <http://www.star.le.ac.uk>, <http://www.vu.nl>, <http://data.semanticweb.org>, <http://www.cs.univie.ac.at>, <http://www.cs.vu.nl>, <http://www.csc.liva.ac.uk>, <http://www.csd.abdn.ac.uk>, <http://www.cwi.nl>, <http://www.dis.uniroma1.it>, <http://www.ee.surrey.ac.uk>, <http://www.ei.sanken.osaka-u.ac.jp>, <http://www.eps.uam.es>, <http://www.few.vu.nl>, <http://www.ics.forth.gr>, <http://www.inesc-id.pt>, <http://www.informatik.uni-mainz.de>, <http://www.shef.ac.uk> ; 
+         ] ; .

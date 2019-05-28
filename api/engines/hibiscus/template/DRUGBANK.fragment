@@ -1,0 +1,631 @@
+[] a ds:Service ;
+     ds:url   <http://%ENDPOINT_DRUGBANK%/sparql> ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+           ds:sbjAuthority <http://www.w3.org>, <http://www4.wiwiss.fu-berlin.de>, <http://xmlns.com> ; 
+           ds:objAuthority <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>, <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs>, <http://www4.wiwiss.fu-berlin.de/drugbank/vocab/resource/class/Offer>, <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/references>, <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/targets>, <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drug_interactions>, <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/enzymes>, <http://www.w3.org/2000/01/rdf-schema#Class> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#equivalentClass> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://dbpedia.org>, <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#equivalentProperty> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://dbpedia.org>, <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#label> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#sameAs> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://dbpedia.org>, <http://data.linkedct.org>, <http://www.dbpedia.org>, <http://www4.wiwiss.fu-berlin.de>, <http://purl.org>, <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/absorption> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/ahfsCode> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/biotransformation> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandMixture> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/cellularLocation> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalFormula> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalIupacName> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chromosomeLocation> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/creationDate> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/description> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/dpdDrugIdNumber> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/experimentalCaco2Permeability> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/experimentalLogpHydrophobicity> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/experimentalLogs> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/experimentalWaterSolubility> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/fdaLabelFiles> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genbankIdProtein> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/geneName> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/geneSequence> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/goClassificationComponent> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/goClassificationFunction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/goClassificationProcess> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/halfLife> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/hetId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/hprdId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/indication> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/limsDrugId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/locus> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/massSpecFile> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/mechanismOfAction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/molecularWeight> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/molecularWeightAverage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/molecularWeightMono> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/msdsFiles> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/name> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/numberOfResidues> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pdbExperimentalId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pdbHomologyId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pharmacology> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pkaIsoelectricPoint> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/predictedLogpHydrophobicity> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/predictedLogs> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/predictedWaterSolubility> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/proteinBinding> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/proteinSequence> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pubchemCompoundId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pubchemSubstanceId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/reaction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/reference> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/signal> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/specificFunction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/structure> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/swissprotName> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synthesisReference> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/theoreticalPi> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/toxicity> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/transmembraneRegions> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/updateDate> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/primaryAccessionNo> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/affectedOrganism> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/atcCode> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalStructure> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/foodInteraction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genatlasId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genbankId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genbankIdGene> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genecardId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/generalFunction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/inchiKey> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/smilesStringCanonical> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/smilesStringIsomeric> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/text> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/essentiality> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/inchiIdentifier> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pharmgkbId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/state> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/contraindicationInsert> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://129.128.185.122> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/hgncId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionInsert> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://129.128.185.122> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggDrugId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pathway> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/patientInformationInsert> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pdbId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pdrhealthLink> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pfamDomainFunction> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/secondaryAccessionNumber> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/swissprotId> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/page> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://dbpedia.org>, <http://en.wikipedia.org>, <http://www.drugbank.ca>, <http://www.ncbi.nlm.nih.gov> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/bio2rdfSymbol> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://symbol.bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/dosageForm> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugReference> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugType> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/enzyme> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genbankIdGenePage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www.ncbi.nlm.nih.gov> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genbankIdProteinPage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www.ncbi.nlm.nih.gov> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/generalReference> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/hgncIdPage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www.genenames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug1> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug2> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pdbIdPage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www.pdb.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pfamDomainFunctionPage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://pfam.sanger.ac.uk> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/rxlistLink> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www.rxlist.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/swissprotPage> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www.uniprot.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/target> ;
+           ds:sbjAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+           ds:objAuthority <http://www4.wiwiss.fu-berlin.de> ; 
+         ] ; .

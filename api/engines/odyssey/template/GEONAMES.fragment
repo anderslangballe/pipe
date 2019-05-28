@@ -1,0 +1,3 @@
+<http://Geonames> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_GEONAMES%/sparql";
+fluid:supportsASKQueries "false" .

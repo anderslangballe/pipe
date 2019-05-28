@@ -1,0 +1,4 @@
+[ rep:repositoryType "west:VoidRepository" ;
+  fed:voidDescription </opt/pipe/engines/rdffederator/federation/swdf_void.n3> ;
+  void:sparqlEndpoint <http://%ENDPOINT_SWDF%/sparql>
+]

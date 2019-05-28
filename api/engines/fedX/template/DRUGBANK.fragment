@@ -1,0 +1,3 @@
+<http://Drugbank> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_DRUGBANK%/sparql";
+fluid:supportsASKQueries "false" .

@@ -1,0 +1,3 @@
+optimize=true
+debugQueryPlan=true
+optimizer.enableServiceAsBoundJoin=true

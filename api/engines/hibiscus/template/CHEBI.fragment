@@ -1,0 +1,158 @@
+[] a ds:Service ;
+     ds:url   <http://%ENDPOINT_CHEBI%/sparql> ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org/ns/chebi#Compound> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#label> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#comment> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/modified> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/title> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#smiles> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#iupacName> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#formula> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#synonym> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#inchi> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#image> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#url> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#Status> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#has_parent_hydride> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#has_role> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#xSource> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/identifier> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#xRef> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#has_functional_parent> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#has_part> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#is_a> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#is_conjugate_acid_of> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#is_conjugate_base_of> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#is_enantiomer_of> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#is_substituent_group_from> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#is_tautomer_of> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/chebi#xReferencedBy> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ; .

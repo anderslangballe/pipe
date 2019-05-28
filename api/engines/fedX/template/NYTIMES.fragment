@@ -1,0 +1,3 @@
+<http://NYTimes> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_NYTIMES%/sparql";
+fluid:supportsASKQueries "false" .

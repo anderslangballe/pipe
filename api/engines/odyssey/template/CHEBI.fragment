@@ -1,0 +1,3 @@
+<http://ChEBI> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_CHEBI%/sparql";
+fluid:supportsASKQueries "false" .

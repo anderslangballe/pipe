@@ -1,0 +1,16 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:DatasetRoot rdf:type void:Dataset .
+
+%FILE_CHEBI.fragment%
+%FILE_DBPEDIA.fragment%
+%FILE_DRUGBANK.fragment%
+%FILE_GEONAMES.fragment%
+%FILE_JAMENDO.fragment%
+%FILE_KEGG.fragment%
+%FILE_LMDB.fragment%
+%FILE_NYTIMES.fragment%
+%FILE_SWDF.fragment%

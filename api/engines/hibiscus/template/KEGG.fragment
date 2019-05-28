@@ -1,0 +1,117 @@
+[] a ds:Service ;
+     ds:url   <http://%ENDPOINT_KEGG%/sparql> ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org/ns/kegg#Compound>, <http://bio2rdf.org/ns/kegg#Drug>, <http://bio2rdf.org/ns/kegg#Enzyme>, <http://bio2rdf.org/ns/kegg#Reaction> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#label> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#comment> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#sameAs> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#url> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#xRef> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#xProduct> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#xSubstrate> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#isA> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#xCofactor> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#xEnzyme> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#xGene> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/title> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#formula> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#systematicName> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#mass> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#synonym> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#equation> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/identifier> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/bio2rdf#urlImage> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://bio2rdf.org/ns/kegg#xPathway> ;
+           ds:sbjAuthority <http://bio2rdf.org> ; 
+           ds:objAuthority <http://bio2rdf.org> ; 
+         ] ; .

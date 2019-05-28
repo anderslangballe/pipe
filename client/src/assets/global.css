@@ -1,0 +1,11 @@
+.tab-title {
+  font-size: 16px
+}
+
+.color-box {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    left: 5px;
+    top: 5px;
+}

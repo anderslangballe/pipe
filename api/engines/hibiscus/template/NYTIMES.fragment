@@ -1,0 +1,199 @@
+[] a ds:Service ;
+     ds:url   <http://%ENDPOINT_NYTIMES%/sparql> ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+           ds:sbjAuthority <http://data.nytimes.com>, <http://sws.geonames.org> ; 
+           ds:objAuthority <http://www.w3.org/2004/02/skos/core#Concept>, <http://www.geonames.org/ontology#Feature> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/created> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/modified> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#sameAs> ;
+           ds:sbjAuthority <http://data.nytimes.com>, <http://sws.geonames.org> ; 
+           ds:objAuthority <http://dbpedia.org>, <http://data.nytimes.com>, <http://rdf.freebase.com>, <http://sws.geonames.org>, <http://www.ordnancesurvey.co.uk>, <http://rdf.insee.fr> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#population> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+           ds:sbjAuthority <http://sws.geonames.org>, <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/associated_article_count> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/first_use> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/latest_use> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/number_of_variants> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#alternateName> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#countryCode> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#name> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#postalCode> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+           ds:sbjAuthority <http://sws.geonames.org>, <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2004/02/skos/core#definition> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/elements/1.1/creator> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/rightsHolder> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/search_api_query> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://creativecommons.org/ns#attributionName> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://xmlns.com/foaf/0.1/primaryTopic> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+           ds:objAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://creativecommons.org/ns#attributionURL> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+           ds:objAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://creativecommons.org/ns#license> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+           ds:objAuthority <http://creativecommons.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/mapping_strategy> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+           ds:objAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#wikipediaArticle> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://ab.wikipedia.org>, <http://af.wikipedia.org>, <http://als.wikipedia.org>, <http://am.wikipedia.org>, <http://an.wikipedia.org>, <http://ang.wikipedia.org>, <http://ar.wikipedia.org>, <http://arc.wikipedia.org>, <http://as.wikipedia.org>, <http://ast.wikipedia.org>, <http://av.wikipedia.org>, <http://ay.wikipedia.org>, <http://az.wikipedia.org>, <http://ba.wikipedia.org>, <http://bar.wikipedia.org>, <http://bcl.wikipedia.org>, <http://be.wikipedia.org>, <http://bg.wikipedia.org>, <http://bh.wikipedia.org>, <http://bi.wikipedia.org>, <http://bm.wikipedia.org>, <http://bn.wikipedia.org>, <http://bo.wikipedia.org>, <http://bpy.wikipedia.org>, <http://br.wikipedia.org>, <http://bs.wikipedia.org>, <http://bug.wikipedia.org>, <http://bxr.wikipedia.org>, <http://ca.wikipedia.org>, <http://cdo.wikipedia.org>, <http://ce.wikipedia.org>, <http://ceb.wikipedia.org>, <http://chr.wikipedia.org>, <http://co.wikipedia.org>, <http://cr.wikipedia.org>, <http://crh.wikipedia.org>, <http://cs.wikipedia.org>, <http://csb.wikipedia.org>, <http://cu.wikipedia.org>, <http://cv.wikipedia.org>, <http://cy.wikipedia.org>, <http://da.wikipedia.org>, <http://de.wikipedia.org>, <http://diq.wikipedia.org>, <http://dsb.wikipedia.org>, <http://dv.wikipedia.org>, <http://dz.wikipedia.org>, <http://ee.wikipedia.org>, <http://el.wikipedia.org>, <http://eml.wikipedia.org>, <http://en.wikipedia.org>, <http://eo.wikipedia.org>, <http://es.wikipedia.org>, <http://et.wikipedia.org>, <http://eu.wikipedia.org>, <http://fa.wikipedia.org>, <http://ff.wikipedia.org>, <http://fi.wikipedia.org>, <http://fj.wikipedia.org>, <http://fo.wikipedia.org>, <http://fr.wikipedia.org>, <http://frp.wikipedia.org>, <http://fur.wikipedia.org>, <http://fy.wikipedia.org>, <http://ga.wikipedia.org>, <http://gd.wikipedia.org>, <http://gl.wikipedia.org>, <http://glk.wikipedia.org>, <http://gn.wikipedia.org>, <http://gu.wikipedia.org>, <http://gv.wikipedia.org>, <http://ha.wikipedia.org>, <http://hak.wikipedia.org>, <http://haw.wikipedia.org>, <http://he.wikipedia.org>, <http://hi.wikipedia.org>, <http://hr.wikipedia.org>, <http://hsb.wikipedia.org>, <http://ht.wikipedia.org>, <http://hu.wikipedia.org>, <http://hy.wikipedia.org>, <http://ia.wikipedia.org>, <http://id.wikipedia.org>, <http://ie.wikipedia.org>, <http://ig.wikipedia.org>, <http://ik.wikipedia.org>, <http://ilo.wikipedia.org>, <http://io.wikipedia.org>, <http://is.wikipedia.org>, <http://it.wikipedia.org>, <http://iu.wikipedia.org>, <http://ja.wikipedia.org>, <http://jbo.wikipedia.org>, <http://jv.wikipedia.org>, <http://ka.wikipedia.org>, <http://kab.wikipedia.org>, <http://kg.wikipedia.org>, <http://ki.wikipedia.org>, <http://kk.wikipedia.org>, <http://kl.wikipedia.org>, <http://km.wikipedia.org>, <http://kn.wikipedia.org>, <http://ko.wikipedia.org>, <http://ks.wikipedia.org>, <http://ksh.wikipedia.org>, <http://ku.wikipedia.org>, <http://kv.wikipedia.org>, <http://kw.wikipedia.org>, <http://ky.wikipedia.org>, <http://la.wikipedia.org>, <http://lad.wikipedia.org>, <http://lb.wikipedia.org>, <http://lbe.wikipedia.org>, <http://lg.wikipedia.org>, <http://li.wikipedia.org>, <http://lij.wikipedia.org>, <http://lmo.wikipedia.org>, <http://ln.wikipedia.org>, <http://lo.wikipedia.org>, <http://lt.wikipedia.org>, <http://lv.wikipedia.org>, <http://mg.wikipedia.org>, <http://mh.wikipedia.org>, <http://mi.wikipedia.org>, <http://mk.wikipedia.org>, <http://ml.wikipedia.org>, <http://mn.wikipedia.org>, <http://mo.wikipedia.org>, <http://mr.wikipedia.org>, <http://ms.wikipedia.org>, <http://mt.wikipedia.org>, <http://my.wikipedia.org>, <http://mzn.wikipedia.org>, <http://na.wikipedia.org>, <http://nah.wikipedia.org>, <http://nap.wikipedia.org>, <http://nds.wikipedia.org>, <http://ne.wikipedia.org>, <http://new.wikipedia.org>, <http://ng.wikipedia.org>, <http://nl.wikipedia.org>, <http://nn.wikipedia.org>, <http://no.wikipedia.org>, <http://nov.wikipedia.org>, <http://nrm.wikipedia.org>, <http://nv.wikipedia.org>, <http://ny.wikipedia.org>, <http://oc.wikipedia.org>, <http://om.wikipedia.org>, <http://or.wikipedia.org>, <http://os.wikipedia.org>, <http://pa.wikipedia.org>, <http://pag.wikipedia.org>, <http://pam.wikipedia.org>, <http://pap.wikipedia.org>, <http://pdc.wikipedia.org>, <http://pi.wikipedia.org>, <http://pih.wikipedia.org>, <http://pl.wikipedia.org>, <http://pms.wikipedia.org>, <http://ps.wikipedia.org>, <http://pt.wikipedia.org>, <http://qu.wikipedia.org>, <http://rm.wikipedia.org>, <http://rmy.wikipedia.org>, <http://rn.wikipedia.org>, <http://ro.wikipedia.org>, <http://ru.wikipedia.org>, <http://rw.wikipedia.org>, <http://sa.wikipedia.org>, <http://sc.wikipedia.org>, <http://scn.wikipedia.org>, <http://sco.wikipedia.org>, <http://sd.wikipedia.org>, <http://se.wikipedia.org>, <http://sg.wikipedia.org>, <http://sh.wikipedia.org>, <http://si.wikipedia.org>, <http://sk.wikipedia.org>, <http://sl.wikipedia.org>, <http://sm.wikipedia.org>, <http://so.wikipedia.org>, <http://sq.wikipedia.org>, <http://sr.wikipedia.org>, <http://ss.wikipedia.org>, <http://st.wikipedia.org>, <http://stq.wikipedia.org>, <http://su.wikipedia.org>, <http://sv.wikipedia.org>, <http://sw.wikipedia.org>, <http://ta.wikipedia.org>, <http://te.wikipedia.org>, <http://tet.wikipedia.org>, <http://tg.wikipedia.org>, <http://th.wikipedia.org>, <http://ti.wikipedia.org>, <http://tk.wikipedia.org>, <http://tl.wikipedia.org>, <http://tn.wikipedia.org>, <http://to.wikipedia.org>, <http://tpi.wikipedia.org>, <http://tr.wikipedia.org>, <http://ts.wikipedia.org>, <http://tt.wikipedia.org>, <http://tum.wikipedia.org>, <http://tw.wikipedia.org>, <http://ty.wikipedia.org>, <http://udm.wikipedia.org>, <http://ug.wikipedia.org>, <http://uk.wikipedia.org>, <http://ur.wikipedia.org>, <http://uz.wikipedia.org>, <http://ve.wikipedia.org>, <http://vec.wikipedia.org>, <http://vi.wikipedia.org>, <http://vls.wikipedia.org>, <http://vo.wikipedia.org>, <http://wa.wikipedia.org>, <http://war.wikipedia.org>, <http://wo.wikipedia.org>, <http://wuu.wikipedia.org>, <http://xal.wikipedia.org>, <http://xh.wikipedia.org>, <http://yi.wikipedia.org>, <http://yo.wikipedia.org>, <http://za.wikipedia.org>, <http://zea.wikipedia.org>, <http://zh.wikipedia.org>, <http://zu.wikipedia.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2004/02/skos/core#inScheme> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+           ds:objAuthority <http://data.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://data.nytimes.com/elements/topicPage> ;
+           ds:sbjAuthority <http://data.nytimes.com> ; 
+           ds:objAuthority <http://topics.nytimes.com> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#childrenFeatures> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#featureClass> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://www.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#featureCode> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://www.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#inCountry> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://www.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#locationMap> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://www.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#nearbyFeatures> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#neighbouringFeatures> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://sws.geonames.org> ; 
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.geonames.org/ontology#parentFeature> ;
+           ds:sbjAuthority <http://sws.geonames.org> ; 
+           ds:objAuthority <http://sws.geonames.org> ; 
+         ] ; .

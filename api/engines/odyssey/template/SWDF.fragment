@@ -1,0 +1,3 @@
+<http://SWDF> fluid:store "SPARQLEndpoint";
+fluid:SPARQLEndpoint "http://%ENDPOINT_SWDF%/sparql";
+fluid:supportsASKQueries "false" .
