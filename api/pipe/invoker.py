@@ -247,7 +247,7 @@ class OdysseyInvoker:
 
     def perform_query(self, job):
         fill_template(job.get_sources(), [self.FEDERATION_FILE, self.DATASETS_FILE], self.TEMPLATE_DIR,
-                      self.FEDERATION_DIR)
+                      self.FEDERATION_DIR, '\n')
 
         base = os.path.join(ODYSSEY, 'bin')
         remove_files(base, 'cache.db')
