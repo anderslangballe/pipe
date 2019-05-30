@@ -23,7 +23,7 @@ export default {
     tree: {
       handler: function(val, oldVal) {
         // Update when the plan is updated
-        if (oldVal && val) {
+        if (oldVal) {
           this.update();
         }
       }

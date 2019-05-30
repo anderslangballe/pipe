@@ -100,6 +100,11 @@ export default function drawTree(parentComponent, sourceMap, root, hoverCallback
   const componentId = `#${parentComponent}`;
   d3.select(componentId).select("svg").remove();
 
+  // If there is no tree, return after removing the previous one
+  if (!root) {
+    return;
+  }
+
   let margin = {top: 30, right: 5, bottom: 5, left: 5},
   width = 625 - margin.right - margin.left,
   height = 375 - margin.top - margin.bottom;
