@@ -178,7 +178,7 @@
                             <v-card-text>
                               <ul style="list-style-type: none; list-style: none; padding-left: 0;">
                                 <li v-for="(value, key) in this.result.sourceMap" :key="key">
-                                  <span v-bind:style="{'background-color': isSourceHighlighted(key) ? colorize(key) : ''}" ><div v-bind:style="{'background-color': colorize(key)}" class="color-box"></div> {{ value.join(', ') }}</span>
+                                  <span v-bind:style="{'background-color': isSourceHighlighted(key) ? colorize(key) : ''}" ><span v-bind:style="{'background-color': colorize(key)}" class="color-box"></span> {{ value.join(', ') }}</span>
                                 </li>
                               </ul>
                             </v-card-text>
@@ -228,8 +228,9 @@ export default {
       },
       set (value) {
         if (!value) {
-          this.$emit('close');
           this.activeTab = 0;
+          this.$emit('close');
+          this.saveResult();
         }
       }
     },
@@ -248,7 +249,7 @@ export default {
     chartOptions: function() {
       return {
         isStacked: true,
-        chartArea:{left: 100,right: 20, width:"100%", height:"70%"},
+        chartArea:{left: 150, right: 20, width: "100%", height:"70%"},
         fontSize: 18,
         bar: {groupWidth: "50%"},
         legend: {
@@ -259,17 +260,13 @@ export default {
           scaleType: this.logarithmic ? 'mirrorLog' : 'linear',
           format: this.logarithmic ? 'scientific' : null
         },
-        colors: ['dodgerblue', 'crimson']
+        colors: ['rgb(54, 162, 235)', 'rgb(255, 99, 132)']
       }
     }
   },
   methods: {
-    nameChanged: _.debounce(function() {
-      console.log(this.name);
-    }, 500),
     close: function() {
-      this.$emit('close');
-      this.saveResult();
+      this.show = false;
     },
     saveResult: function() {
       this.$emit('saveResult', this.name);
@@ -405,10 +402,6 @@ export default {
     result: {
       immediate: true,
       handler: function(val, oldVal) {
-        if (!val.name) {
-          // Don't change tab if an old result is loaded
-          this.activeTab = 0;
-        }
         this.enabledEngines = new Array(this.result.results.length).fill(1);
         this.plans = [];
         this.performances = [];
