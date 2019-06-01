@@ -168,8 +168,8 @@ class Job:
             sources = frozenset(plan['sources'])
 
             if sources not in self._sources_map:
+                self._sources_map[sources] = self._sources_count
                 self._sources_count += 1
-                self._sources_map[sources] = 'SRC{}'.format(self._sources_count)
 
             plan['sourceId'] = self._sources_map[sources]
 
