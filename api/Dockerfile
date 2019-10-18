@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.7-stretch
 
 # Install Java
 RUN apt-get update && apt-get install openjdk-8-jdk -y
